@@ -1,0 +1,53 @@
+.bookDetail {
+  width: 1100px;
+  background-color: rgba(231, 231, 231, 0.808);
+  padding: 2rem;
+  border-radius: 20px;
+}
+.bookDetail p {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+.bookDetail input {
+  margin: 0 0.6rem;
+}
+.bookDetail__data {
+  padding: 0.5rem 1.2rem;
+  background-color: rgba(128, 128, 128, 0.24);
+  border-radius: 40px;
+  width: 100%;
+  margin: 0 !important;
+  border: none;
+}
+.bookdetail__splitedDiv {
+  width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .bookDetail {
+    width: 90%;
+  }
+}
+.bookDetail button {
+  margin: 0.5rem 1rem;
+  display: block;
+  padding: 0.5rem 2rem;
+  color: white;
+  background-color: rgb(53, 53, 202);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 12px;
+}
+.delete__btn {
+  background-color: rgb(212, 24, 24) !important;
+}
+.book__detailFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book__detailFooter button {
+  margin: 0 1rem;
+}
